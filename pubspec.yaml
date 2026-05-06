@@ -1,0 +1,29 @@
+name: flutter_sqlite_hai
+description: Flutter Todo & Note App with SQLite
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  sqflite: ^2.3.0
+  sqflite_common_ffi: ^2.3.0        # cho desktop
+  sqflite_common_ffi_web: ^0.4.0    # cho web
+  path: ^1.9.0
+  intl: ^0.18.1
+  flutter_slidable: ^3.0.1
+#  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
